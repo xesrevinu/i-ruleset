@@ -23,10 +23,25 @@ payload:
   - DOMAIN-SUFFIX,claudeusercontent.com
 
   # Google AI
-  - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+
+  # Google AI Development & Studio
+  - DOMAIN,ai.google.dev
+  - DOMAIN,ai.dev
+  - DOMAIN,aistudio.google.com
+
+  # Google AI Dependencies
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,developerprofiles-pa.googleapis.com
+  - DOMAIN,content-developerprofiles-pa.googleapis.com
+  - DOMAIN,fonts.googleapis.com
+  - DOMAIN,people-pa.clients6.google.com
+  - DOMAIN,waa-pa.clients6.google.com
 
   # Poe
   - DOMAIN-SUFFIX,poe.com
@@ -34,12 +49,12 @@ payload:
   # Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
 
+  # ZED LLM
+  - DOMAIN-SUFFIX,llm.zed.dev
+
   # Common Dependencies
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,identrust.com
-  # - DOMAIN-SUFFIX,cloudflare.com
-  # - DOMAIN-SUFFIX,cloudflareinsights.com
-  # - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,intercom.io
